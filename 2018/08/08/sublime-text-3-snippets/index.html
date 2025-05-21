@@ -1,189 +1,841 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="en-US" class="no-js">
-<!--<![endif]-->
+	<!--<![endif]-->
 
-<head>
-	<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8" />
 
-	
-	<link rel="preconnect" href="https://api.github.com">
+		<link rel="preconnect" href="https://api.github.com" />
 
-	<link
-		rel="preload"
-		href="/wp-content/themes/wp-foundation-six/assets/fonts/montserrat-bold-webfont.woff2"
-		as="font"
-		type="font/woff2"
-		crossorigin="anonymous"
+		<link
+			rel="preload"
+			href="/wp-content/themes/wp-foundation-six/assets/fonts/montserrat-bold-webfont.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="preload"
+			href="/wp-content/themes/wp-foundation-six/assets/fonts/montserrat-regular-webfont.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="profile" href="https://gmpg.org/xfn/11" />
+		<link rel="pingback" href="/xmlrpc.php" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-32x32.png"
+			sizes="32x32"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/android-chrome-192x192.png"
+			sizes="192x192"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-16x16.png"
+			sizes="16x16"
+		/>
+		<link rel="manifest" href="/wp-content/themes/wp-foundation-six/assets/icons/manifest.json" />
+		<link
+			rel="mask-icon"
+			href="/wp-content/themes/wp-foundation-six/assets/icons/safari-pinned-tab.svg"
+			color="#1b152b"
+		/>
+		<link rel="shortcut icon" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#1b152b" />
+		<meta
+			name="msapplication-TileImage"
+			content="/wp-content/themes/wp-foundation-six/assets/icons/mstile-144x144.png"
+		/>
+		<meta
+			name="msapplication-config"
+			content="/wp-content/themes/wp-foundation-six/assets/icons/browserconfig.xml"
+		/>
+		<meta name="theme-color" content="#1b152b" />
+
+		<meta name="apple-mobile-web-app-title" content="DigitalBlake" />
+		<meta name="application-name" content="DigitalBlake" />
+
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+		<style>
+			img:is([sizes='auto' i], [sizes^='auto,' i]) {
+				contain-intrinsic-size: 3000px 1500px;
+			}
+		</style>
+
+		<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
+		<title>Sublime Text 3 Snippets - DigitalBlake</title>
+		<meta
+			name="description"
+			content="Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code."
+		/>
+		<link rel="canonical" href="/2018/08/08/sublime-text-3-snippets/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Sublime Text 3 Snippets - DigitalBlake" />
+		<meta
+			property="og:description"
+			content="Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code."
+		/>
+		<meta property="og:url" content="/2018/08/08/sublime-text-3-snippets/" />
+		<meta property="og:site_name" content="DigitalBlake" />
+		<meta property="article:published_time" content="2018-08-09T03:12:35+00:00" />
+		<meta property="article:modified_time" content="2020-10-03T02:09:55+00:00" />
+		<meta property="og:image" content="/wp-content/uploads/2018/08/sublime-text-snippet.jpg" />
+		<meta name="author" content="Blake Cerecero" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@BlakeCerecero" />
+		<meta name="twitter:site" content="@BlakeCerecero" />
+		<meta name="twitter:label1" content="Written by" />
+		<meta name="twitter:data1" content="Blake Cerecero" />
+		<meta name="twitter:label2" content="Est. reading time" />
+		<meta name="twitter:data2" content="3 minutes" />
+		<script type="application/ld+json" class="yoast-schema-graph">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "Article",
+						"@id": "/2018/08/08/sublime-text-3-snippets/#article",
+						"isPartOf": { "@id": "/2018/08/08/sublime-text-3-snippets/" },
+						"author": {
+							"name": "Blake Cerecero",
+							"@id": "/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35"
+						},
+						"headline": "Sublime Text 3 Snippets",
+						"datePublished": "2018-08-09T03:12:35+00:00",
+						"dateModified": "2020-10-03T02:09:55+00:00",
+						"mainEntityOfPage": { "@id": "/2018/08/08/sublime-text-3-snippets/" },
+						"wordCount": 471,
+						"publisher": { "@id": "/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35" },
+						"image": { "@id": "/2018/08/08/sublime-text-3-snippets/#primaryimage" },
+						"thumbnailUrl": "/wp-content/uploads/2018/08/sublime-text-snippet.jpg",
+						"keywords": ["javascript", "php", "sublime text", "wordpress"],
+						"articleSection": ["Guides"],
+						"inLanguage": "en-US"
+					},
+					{
+						"@type": "WebPage",
+						"@id": "/2018/08/08/sublime-text-3-snippets/",
+						"url": "/2018/08/08/sublime-text-3-snippets/",
+						"name": "Sublime Text 3 Snippets - DigitalBlake",
+						"isPartOf": { "@id": "/#website" },
+						"primaryImageOfPage": { "@id": "/2018/08/08/sublime-text-3-snippets/#primaryimage" },
+						"image": { "@id": "/2018/08/08/sublime-text-3-snippets/#primaryimage" },
+						"thumbnailUrl": "/wp-content/uploads/2018/08/sublime-text-snippet.jpg",
+						"datePublished": "2018-08-09T03:12:35+00:00",
+						"dateModified": "2020-10-03T02:09:55+00:00",
+						"description": "Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code.",
+						"breadcrumb": { "@id": "/2018/08/08/sublime-text-3-snippets/#breadcrumb" },
+						"inLanguage": "en-US",
+						"potentialAction": [
+							{ "@type": "ReadAction", "target": ["/2018/08/08/sublime-text-3-snippets/"] }
+						]
+					},
+					{
+						"@type": "ImageObject",
+						"inLanguage": "en-US",
+						"@id": "/2018/08/08/sublime-text-3-snippets/#primaryimage",
+						"url": "/wp-content/uploads/2018/08/sublime-text-snippet.jpg",
+						"contentUrl": "/wp-content/uploads/2018/08/sublime-text-snippet.jpg",
+						"width": 800,
+						"height": 386
+					},
+					{
+						"@type": "BreadcrumbList",
+						"@id": "/2018/08/08/sublime-text-3-snippets/#breadcrumb",
+						"itemListElement": [
+							{ "@type": "ListItem", "position": 1, "name": "Home", "item": "/" },
+							{ "@type": "ListItem", "position": 2, "name": "Articles", "item": "/articles/" },
+							{ "@type": "ListItem", "position": 3, "name": "Sublime Text 3 Snippets" }
+						]
+					},
+					{
+						"@type": "WebSite",
+						"@id": "/#website",
+						"url": "/",
+						"name": "DigitalBlake",
+						"description": "Lets work Together",
+						"publisher": { "@id": "/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35" },
+						"potentialAction": [
+							{
+								"@type": "SearchAction",
+								"target": { "@type": "EntryPoint", "urlTemplate": "/?s={search_term_string}" },
+								"query-input": {
+									"@type": "PropertyValueSpecification",
+									"valueRequired": true,
+									"valueName": "search_term_string"
+								}
+							}
+						],
+						"inLanguage": "en-US"
+					},
+					{
+						"@type": ["Person", "Organization"],
+						"@id": "/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35",
+						"name": "Blake Cerecero",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "/#/schema/person/image/",
+							"url": "https://secure.gravatar.com/avatar/377061abb8f43954e755c897b0846c2fa3f6c2c715f9892977f12ffa80213663?s=96&d=mm&r=g",
+							"contentUrl": "https://secure.gravatar.com/avatar/377061abb8f43954e755c897b0846c2fa3f6c2c715f9892977f12ffa80213663?s=96&d=mm&r=g",
+							"caption": "Blake Cerecero"
+						},
+						"logo": { "@id": "/#/schema/person/image/" },
+						"description": "I’ve developed in multiple content management systems from the ever popular WordPress to the developer friendly and powerful Drupal. Using these CMS’s I have been able to build sites that are both flexible and user-friendly.",
+						"sameAs": ["https://www.linkedin.com/in/blakecerecero/", "https://x.com/BlakeCerecero"],
+						"url": "/author/digitalblake/"
+					}
+				]
+			}
+		</script>
+		<!-- / Yoast SEO plugin. -->
+
+		<link rel="dns-prefetch" href="//digitalblake.com" />
+
+		<link
+			rel="stylesheet"
+			id="wp-block-library-css"
+			href="/wp-includes/css/dist/block-library/style.min.css?ver=a3aac00bd94deba0cf72546dc56a221a"
+			type="text/css"
+			media="all"
+		/>
+		<style id="classic-theme-styles-inline-css" type="text/css">
+			/*! This file is auto-generated */
+			.wp-block-button__link {
+				color: #fff;
+				background-color: #32373c;
+				border-radius: 9999px;
+				box-shadow: none;
+				text-decoration: none;
+				padding: calc(0.667em + 2px) calc(1.333em + 2px);
+				font-size: 1.125em;
+			}
+			.wp-block-file__button {
+				background: #32373c;
+				color: #fff;
+				text-decoration: none;
+			}
+		</style>
+		<style id="global-styles-inline-css" type="text/css">
+			:root {
+				--wp--preset--aspect-ratio--square: 1;
+				--wp--preset--aspect-ratio--4-3: 4/3;
+				--wp--preset--aspect-ratio--3-4: 3/4;
+				--wp--preset--aspect-ratio--3-2: 3/2;
+				--wp--preset--aspect-ratio--2-3: 2/3;
+				--wp--preset--aspect-ratio--16-9: 16/9;
+				--wp--preset--aspect-ratio--9-16: 9/16;
+				--wp--preset--color--black: #000000;
+				--wp--preset--color--cyan-bluish-gray: #abb8c3;
+				--wp--preset--color--white: #ffffff;
+				--wp--preset--color--pale-pink: #f78da7;
+				--wp--preset--color--vivid-red: #cf2e2e;
+				--wp--preset--color--luminous-vivid-orange: #ff6900;
+				--wp--preset--color--luminous-vivid-amber: #fcb900;
+				--wp--preset--color--light-green-cyan: #7bdcb5;
+				--wp--preset--color--vivid-green-cyan: #00d084;
+				--wp--preset--color--pale-cyan-blue: #8ed1fc;
+				--wp--preset--color--vivid-cyan-blue: #0693e3;
+				--wp--preset--color--vivid-purple: #9b51e0;
+				--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+					135deg,
+					rgba(6, 147, 227, 1) 0%,
+					rgb(155, 81, 224) 100%
+				);
+				--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+					135deg,
+					rgb(122, 220, 180) 0%,
+					rgb(0, 208, 130) 100%
+				);
+				--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+					135deg,
+					rgba(252, 185, 0, 1) 0%,
+					rgba(255, 105, 0, 1) 100%
+				);
+				--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+					135deg,
+					rgba(255, 105, 0, 1) 0%,
+					rgb(207, 46, 46) 100%
+				);
+				--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+					135deg,
+					rgb(238, 238, 238) 0%,
+					rgb(169, 184, 195) 100%
+				);
+				--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+					135deg,
+					rgb(74, 234, 220) 0%,
+					rgb(151, 120, 209) 20%,
+					rgb(207, 42, 186) 40%,
+					rgb(238, 44, 130) 60%,
+					rgb(251, 105, 98) 80%,
+					rgb(254, 248, 76) 100%
+				);
+				--wp--preset--gradient--blush-light-purple: linear-gradient(
+					135deg,
+					rgb(255, 206, 236) 0%,
+					rgb(152, 150, 240) 100%
+				);
+				--wp--preset--gradient--blush-bordeaux: linear-gradient(
+					135deg,
+					rgb(254, 205, 165) 0%,
+					rgb(254, 45, 45) 50%,
+					rgb(107, 0, 62) 100%
+				);
+				--wp--preset--gradient--luminous-dusk: linear-gradient(
+					135deg,
+					rgb(255, 203, 112) 0%,
+					rgb(199, 81, 192) 50%,
+					rgb(65, 88, 208) 100%
+				);
+				--wp--preset--gradient--pale-ocean: linear-gradient(
+					135deg,
+					rgb(255, 245, 203) 0%,
+					rgb(182, 227, 212) 50%,
+					rgb(51, 167, 181) 100%
+				);
+				--wp--preset--gradient--electric-grass: linear-gradient(
+					135deg,
+					rgb(202, 248, 128) 0%,
+					rgb(113, 206, 126) 100%
+				);
+				--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+				--wp--preset--font-size--small: 13px;
+				--wp--preset--font-size--medium: 20px;
+				--wp--preset--font-size--large: 36px;
+				--wp--preset--font-size--x-large: 42px;
+				--wp--preset--spacing--20: 0.44rem;
+				--wp--preset--spacing--30: 0.67rem;
+				--wp--preset--spacing--40: 1rem;
+				--wp--preset--spacing--50: 1.5rem;
+				--wp--preset--spacing--60: 2.25rem;
+				--wp--preset--spacing--70: 3.38rem;
+				--wp--preset--spacing--80: 5.06rem;
+				--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+				--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+				--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+				--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+				--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+			}
+			:where(.is-layout-flex) {
+				gap: 0.5em;
+			}
+			:where(.is-layout-grid) {
+				gap: 0.5em;
+			}
+			body .is-layout-flex {
+				display: flex;
+			}
+			.is-layout-flex {
+				flex-wrap: wrap;
+				align-items: center;
+			}
+			.is-layout-flex > :is(*, div) {
+				margin: 0;
+			}
+			body .is-layout-grid {
+				display: grid;
+			}
+			.is-layout-grid > :is(*, div) {
+				margin: 0;
+			}
+			:where(.wp-block-columns.is-layout-flex) {
+				gap: 2em;
+			}
+			:where(.wp-block-columns.is-layout-grid) {
+				gap: 2em;
+			}
+			:where(.wp-block-post-template.is-layout-flex) {
+				gap: 1.25em;
+			}
+			:where(.wp-block-post-template.is-layout-grid) {
+				gap: 1.25em;
+			}
+			.has-black-color {
+				color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-color {
+				color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-color {
+				color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-color {
+				color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-color {
+				color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-color {
+				color: var(--wp--preset--color--luminous-vivid-orange) !important;
+			}
+			.has-luminous-vivid-amber-color {
+				color: var(--wp--preset--color--luminous-vivid-amber) !important;
+			}
+			.has-light-green-cyan-color {
+				color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-color {
+				color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-color {
+				color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-color {
+				color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-color {
+				color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-black-background-color {
+				background-color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-background-color {
+				background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-background-color {
+				background-color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-background-color {
+				background-color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-background-color {
+				background-color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-background-color {
+				background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+			}
+			.has-luminous-vivid-amber-background-color {
+				background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+			}
+			.has-light-green-cyan-background-color {
+				background-color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-background-color {
+				background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-background-color {
+				background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-background-color {
+				background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-background-color {
+				background-color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-black-border-color {
+				border-color: var(--wp--preset--color--black) !important;
+			}
+			.has-cyan-bluish-gray-border-color {
+				border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+			}
+			.has-white-border-color {
+				border-color: var(--wp--preset--color--white) !important;
+			}
+			.has-pale-pink-border-color {
+				border-color: var(--wp--preset--color--pale-pink) !important;
+			}
+			.has-vivid-red-border-color {
+				border-color: var(--wp--preset--color--vivid-red) !important;
+			}
+			.has-luminous-vivid-orange-border-color {
+				border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+			}
+			.has-luminous-vivid-amber-border-color {
+				border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+			}
+			.has-light-green-cyan-border-color {
+				border-color: var(--wp--preset--color--light-green-cyan) !important;
+			}
+			.has-vivid-green-cyan-border-color {
+				border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+			}
+			.has-pale-cyan-blue-border-color {
+				border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+			}
+			.has-vivid-cyan-blue-border-color {
+				border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+			}
+			.has-vivid-purple-border-color {
+				border-color: var(--wp--preset--color--vivid-purple) !important;
+			}
+			.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+				background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+			}
+			.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+				background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+			}
+			.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+				background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+			}
+			.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+				background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+			}
+			.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+				background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+			}
+			.has-cool-to-warm-spectrum-gradient-background {
+				background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+			}
+			.has-blush-light-purple-gradient-background {
+				background: var(--wp--preset--gradient--blush-light-purple) !important;
+			}
+			.has-blush-bordeaux-gradient-background {
+				background: var(--wp--preset--gradient--blush-bordeaux) !important;
+			}
+			.has-luminous-dusk-gradient-background {
+				background: var(--wp--preset--gradient--luminous-dusk) !important;
+			}
+			.has-pale-ocean-gradient-background {
+				background: var(--wp--preset--gradient--pale-ocean) !important;
+			}
+			.has-electric-grass-gradient-background {
+				background: var(--wp--preset--gradient--electric-grass) !important;
+			}
+			.has-midnight-gradient-background {
+				background: var(--wp--preset--gradient--midnight) !important;
+			}
+			.has-small-font-size {
+				font-size: var(--wp--preset--font-size--small) !important;
+			}
+			.has-medium-font-size {
+				font-size: var(--wp--preset--font-size--medium) !important;
+			}
+			.has-large-font-size {
+				font-size: var(--wp--preset--font-size--large) !important;
+			}
+			.has-x-large-font-size {
+				font-size: var(--wp--preset--font-size--x-large) !important;
+			}
+			:where(.wp-block-post-template.is-layout-flex) {
+				gap: 1.25em;
+			}
+			:where(.wp-block-post-template.is-layout-grid) {
+				gap: 1.25em;
+			}
+			:where(.wp-block-columns.is-layout-flex) {
+				gap: 2em;
+			}
+			:where(.wp-block-columns.is-layout-grid) {
+				gap: 2em;
+			}
+			:root :where(.wp-block-pullquote) {
+				font-size: 1.5em;
+				line-height: 1.6;
+			}
+		</style>
+		<link
+			data-minify="1"
+			rel="stylesheet"
+			id="wp-foundation-six-style-css"
+			href="/wp-content/cache/min/1/wp-content/themes/wp-foundation-six/assets/css/global-styles.min.css?ver=1720310349"
+			type="text/css"
+			media="all"
+		/>
+		<style id="rocket-lazyload-inline-css" type="text/css">
+			.rll-youtube-player {
+				position: relative;
+				padding-bottom: 56.23%;
+				height: 0;
+				overflow: hidden;
+				max-width: 100%;
+			}
+			.rll-youtube-player:focus-within {
+				outline: 2px solid currentColor;
+				outline-offset: 5px;
+			}
+			.rll-youtube-player iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 100;
+				background: 0 0;
+			}
+			.rll-youtube-player img {
+				bottom: 0;
+				display: block;
+				left: 0;
+				margin: auto;
+				max-width: 100%;
+				width: 100%;
+				position: absolute;
+				right: 0;
+				top: 0;
+				border: none;
+				height: auto;
+				-webkit-transition: 0.4s all;
+				-moz-transition: 0.4s all;
+				transition: 0.4s all;
+			}
+			.rll-youtube-player img:hover {
+				-webkit-filter: brightness(75%);
+			}
+			.rll-youtube-player .play {
+				height: 100%;
+				width: 100%;
+				left: 0;
+				top: 0;
+				position: absolute;
+				background: url(/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;
+				background-color: transparent !important;
+				cursor: pointer;
+				border: none;
+			}
+		</style>
+		<noscript
+			><style id="rocket-lazyload-nojs-css">
+				.rll-youtube-player,
+				[data-lazy-src] {
+					display: none !important;
+				}
+			</style></noscript
+		>
+		<meta
+			name="generator"
+			content="WP Rocket 3.17.4"
+			data-wpr-features="wpr_defer_js wpr_minify_concatenate_js wpr_lazyload_images wpr_lazyload_iframes wpr_minify_css wpr_desktop wpr_preload_links"
+		/>
+	</head>
+
+	<body
+		class="wp-singular post-template-default single single-post postid-96 single-format-standard wp-theme-wp-foundation-six"
 	>
-	<link
-		rel="preload"
-		href="/wp-content/themes/wp-foundation-six/assets/fonts/montserrat-regular-webfont.woff2"
-		as="font"
-		type="font/woff2"
-		crossorigin="anonymous"
-	>
+		<a class="skip-link show-for-sr" href="#content">Skip to content</a>
 
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="pingback" href="/xmlrpc.php">
+		<!--[if lt IE 9
+			]><p class="chromeframe">
+				Your browser is <em>not</em> supported.
+				<a href="http://browsehappy.com/">Upgrade to a different browser</a> to experience this site.
+			</p><!
+		[endif]-->
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<header data-rocket-location-hash="ee43e7af6663e81d01c760f8feffc558" class="top-header" id="top_header">
+			<div data-rocket-location-hash="d933b1ac8b6fb63ad2a56418dc6cac27" class="row">
+				<div
+					data-rocket-location-hash="5d854f84ad4b49e896c4e4daf59e120d"
+					class="large-4 medium-5 small-12 columns logo-name"
+				>
+					<a href="/" title="">
+						<svg
+							class="main-logo"
+							data-name="Layer 1"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 50 50"
+						>
+							<defs>
+								<style>
+									.cls-1 {
+										fill: #1b152b;
+									}
+									.cls-2 {
+										fill: #fff;
+									}
+								</style>
+							</defs>
+							<rect class="cls-1" width="50" height="50" />
+							<path
+								class="cls-2"
+								d="M26,39.48H17.1a3.66,3.66,0,0,1-2.74-.86,3.86,3.86,0,0,1-.82-2.74V14.11a3.79,3.79,0,0,1,.84-2.76,3.73,3.73,0,0,1,2.72-.84h9.38a21.93,21.93,0,0,1,3.6.26,7.67,7.67,0,0,1,2.73,1,7.16,7.16,0,0,1,1.82,1.55,6.85,6.85,0,0,1,1.21,2.07,6.94,6.94,0,0,1,.41,2.4q0,4.35-4.35,6.36,5.71,1.82,5.71,7.07a8,8,0,0,1-1.24,4.38A7.47,7.47,0,0,1,33,38.47a11.93,11.93,0,0,1-3,.78A31,31,0,0,1,26,39.48ZM19.41,14.92v7.49h5.37A10.79,10.79,0,0,0,28.18,22,3.23,3.23,0,0,0,30,20.42a3.56,3.56,0,0,0,.49-1.86,2.88,2.88,0,0,0-1.56-2.91,11.93,11.93,0,0,0-4.76-.72Zm6.1,11.7h-6.1v8.46h6.3q5.95,0,5.95-4.29a3.5,3.5,0,0,0-1.54-3.18A8.63,8.63,0,0,0,25.52,26.62Z"
+							/>
+						</svg>
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/wp-content/themes/wp-foundation-six/assets/icons/manifest.json">
-	<link rel="mask-icon" href="/wp-content/themes/wp-foundation-six/assets/icons/safari-pinned-tab.svg" color="#1b152b">
-	<link rel="shortcut icon" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#1b152b">
-	<meta name="msapplication-TileImage" content="/wp-content/themes/wp-foundation-six/assets/icons/mstile-144x144.png">
-	<meta name="msapplication-config" content="/wp-content/themes/wp-foundation-six/assets/icons/browserconfig.xml">
-	<meta name="theme-color" content="#1b152b">
+						<p class="name">DigitalBlake</p>
+					</a>
+				</div>
+				<nav class="large-8 medium-7 small-12 columns">
+					<p class="show-for-sr">Main Navigation</p>
 
-
-		<meta name="apple-mobile-web-app-title" content="DigitalBlake">
-	<meta name="application-name" content="DigitalBlake">
-
-	
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
-	<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Sublime Text 3 Snippets - DigitalBlake</title>
-	<meta name="description" content="Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code." />
-	<link rel="canonical" href="/2018/08/08/sublime-text-3-snippets/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Sublime Text 3 Snippets - DigitalBlake" />
-	<meta property="og:description" content="Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code." />
-	<meta property="og:url" content="/2018/08/08/sublime-text-3-snippets/" />
-	<meta property="og:site_name" content="DigitalBlake" />
-	<meta property="article:published_time" content="2018-08-09T03:12:35+00:00" />
-	<meta property="article:modified_time" content="2020-10-03T02:09:55+00:00" />
-	<meta property="og:image" content="/wp-content/uploads/2018/08/sublime-text-snippet.jpg" />
-	<meta name="author" content="Blake Cerecero" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:creator" content="@BlakeCerecero" />
-	<meta name="twitter:site" content="@BlakeCerecero" />
-	<meta name="twitter:label1" content="Written by" />
-	<meta name="twitter:data1" content="Blake Cerecero" />
-	<meta name="twitter:label2" content="Est. reading time" />
-	<meta name="twitter:data2" content="3 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"/2018/08/08/sublime-text-3-snippets/#article","isPartOf":{"@id":"/2018/08/08/sublime-text-3-snippets/"},"author":{"name":"Blake Cerecero","@id":"/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35"},"headline":"Sublime Text 3 Snippets","datePublished":"2018-08-09T03:12:35+00:00","dateModified":"2020-10-03T02:09:55+00:00","mainEntityOfPage":{"@id":"/2018/08/08/sublime-text-3-snippets/"},"wordCount":471,"publisher":{"@id":"/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35"},"image":{"@id":"/2018/08/08/sublime-text-3-snippets/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2018/08/sublime-text-snippet.jpg","keywords":["javascript","php","sublime text","wordpress"],"articleSection":["Guides"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"/2018/08/08/sublime-text-3-snippets/","url":"/2018/08/08/sublime-text-3-snippets/","name":"Sublime Text 3 Snippets - DigitalBlake","isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/2018/08/08/sublime-text-3-snippets/#primaryimage"},"image":{"@id":"/2018/08/08/sublime-text-3-snippets/#primaryimage"},"thumbnailUrl":"/wp-content/uploads/2018/08/sublime-text-snippet.jpg","datePublished":"2018-08-09T03:12:35+00:00","dateModified":"2020-10-03T02:09:55+00:00","description":"Sublime Text Snippets can help you speed up your development time by reducing the need to manually typing out repetitive code.","breadcrumb":{"@id":"/2018/08/08/sublime-text-3-snippets/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["/2018/08/08/sublime-text-3-snippets/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"/2018/08/08/sublime-text-3-snippets/#primaryimage","url":"/wp-content/uploads/2018/08/sublime-text-snippet.jpg","contentUrl":"/wp-content/uploads/2018/08/sublime-text-snippet.jpg","width":800,"height":386},{"@type":"BreadcrumbList","@id":"/2018/08/08/sublime-text-3-snippets/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"/"},{"@type":"ListItem","position":2,"name":"Articles","item":"/articles/"},{"@type":"ListItem","position":3,"name":"Sublime Text 3 Snippets"}]},{"@type":"WebSite","@id":"/#website","url":"/","name":"DigitalBlake","description":"Lets work Together","publisher":{"@id":"/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"/#/schema/person/1adb50ddeb7ceb72779fa33675e46a35","name":"Blake Cerecero","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/377061abb8f43954e755c897b0846c2fa3f6c2c715f9892977f12ffa80213663?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/377061abb8f43954e755c897b0846c2fa3f6c2c715f9892977f12ffa80213663?s=96&d=mm&r=g","caption":"Blake Cerecero"},"logo":{"@id":"/#/schema/person/image/"},"description":"I’ve developed in multiple content management systems from the ever popular WordPress to the developer friendly and powerful Drupal. Using these CMS’s I have been able to build sites that are both flexible and user-friendly.","sameAs":["https://www.linkedin.com/in/blakecerecero/","https://x.com/BlakeCerecero"],"url":"/author/digitalblake/"}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
-
-<link rel='dns-prefetch' href='//digitalblake.com' />
-
-<link rel='stylesheet' id='wp-block-library-css' href='/wp-includes/css/dist/block-library/style.min.css?ver=a3aac00bd94deba0cf72546dc56a221a' type='text/css' media='all' />
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
-</style>
-<link data-minify="1" rel='stylesheet' id='wp-foundation-six-style-css' href='/wp-content/cache/min/1/wp-content/themes/wp-foundation-six/assets/css/global-styles.min.css?ver=1720310349' type='text/css' media='all' />
-<style id='rocket-lazyload-inline-css' type='text/css'>
-.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
-</style>
-<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><meta name="generator" content="WP Rocket 3.17.4" data-wpr-features="wpr_defer_js wpr_minify_concatenate_js wpr_lazyload_images wpr_lazyload_iframes wpr_minify_css wpr_desktop wpr_preload_links" /></head>
-
-<body class="wp-singular post-template-default single single-post postid-96 single-format-standard wp-theme-wp-foundation-six">
-	<a class="skip-link show-for-sr" href="#content">Skip to content</a>
-
-	<!--[if lt IE 9]><p class=chromeframe>Your browser is <em>not</em> supported. <a href="http://browsehappy.com/">Upgrade to a different browser</a> to experience this site.</p><![endif]-->
-
-	
-	
-	<header data-rocket-location-hash="ee43e7af6663e81d01c760f8feffc558" class="top-header" id="top_header">
-		<div data-rocket-location-hash="d933b1ac8b6fb63ad2a56418dc6cac27" class="row">
-			<div data-rocket-location-hash="5d854f84ad4b49e896c4e4daf59e120d" class="large-4 medium-5 small-12 columns logo-name">
-				<a href="/" title="">
-					<svg class="main-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><defs><style>.cls-1{fill:#1b152b;}.cls-2{fill:#fff;}</style></defs><rect class="cls-1" width="50" height="50"/><path class="cls-2" d="M26,39.48H17.1a3.66,3.66,0,0,1-2.74-.86,3.86,3.86,0,0,1-.82-2.74V14.11a3.79,3.79,0,0,1,.84-2.76,3.73,3.73,0,0,1,2.72-.84h9.38a21.93,21.93,0,0,1,3.6.26,7.67,7.67,0,0,1,2.73,1,7.16,7.16,0,0,1,1.82,1.55,6.85,6.85,0,0,1,1.21,2.07,6.94,6.94,0,0,1,.41,2.4q0,4.35-4.35,6.36,5.71,1.82,5.71,7.07a8,8,0,0,1-1.24,4.38A7.47,7.47,0,0,1,33,38.47a11.93,11.93,0,0,1-3,.78A31,31,0,0,1,26,39.48ZM19.41,14.92v7.49h5.37A10.79,10.79,0,0,0,28.18,22,3.23,3.23,0,0,0,30,20.42a3.56,3.56,0,0,0,.49-1.86,2.88,2.88,0,0,0-1.56-2.91,11.93,11.93,0,0,0-4.76-.72Zm6.1,11.7h-6.1v8.46h6.3q5.95,0,5.95-4.29a3.5,3.5,0,0,0-1.54-3.18A8.63,8.63,0,0,0,25.52,26.62Z"/></svg>
-
-					<p class="name">DigitalBlake</p>
-				</a>
+					<ul id="menu-main-menu" class="main-menu">
+						<li
+							id="menu-item-13"
+							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"
+						>
+							<a href="/#projects">Projects</a>
+						</li>
+						<li
+							id="menu-item-61"
+							class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-61"
+						>
+							<a href="/articles/">Articles</a>
+						</li>
+						<li
+							id="menu-item-442"
+							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-442"
+						>
+							<a target="_blank" href="/wp-content/uploads/2024/07/Blake-Cerecero-Web-Resume-v3.pdf"
+								>Résumé</a
+							>
+						</li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="large-8 medium-7 small-12 columns">
-									<p class="show-for-sr">Main Navigation</p>
+		</header>
 
-					<ul id="menu-main-menu" class="main-menu"><li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="/#projects">Projects</a></li>
-<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-61"><a href="/articles/">Articles</a></li>
-<li id="menu-item-442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-442"><a target="_blank" href="/wp-content/uploads/2024/07/Blake-Cerecero-Web-Resume-v3.pdf">Résumé</a></li>
-</ul>							</nav>
-		</div>
-	</header>
+		<div data-rocket-location-hash="5af47f6829f724b092e5b844a38e0bc1" class="row">
+			<main
+				data-rocket-location-hash="9289ac32e29677407f6e1243942ffe87"
+				class="medium-12 small-12 columns"
+				role="main"
+				id="content"
+			>
+				<div data-rocket-location-hash="1fb6feb7187960ee97019e6604a9d559" class="wrapper">
+					<article
+						id="post-96"
+						class="main-content-block post-96 post type-post status-publish format-standard hentry category-guides tag-javascript tag-php tag-sublime-text tag-wordpress sticky-post"
+					>
+						<div data-rocket-location-hash="459ef3f9f116f091bc911e896d055d93" class="row">
+							<div class="large-9 medium-12 small-12 columns">
+								<header class="entry-header">
+									<h1 class="entry-title">Sublime Text 3 Snippets</h1>
+									<div class="entry-meta">
+										<p>
+											<span class="posted-on post-meta"
+												>Posted:
+												<time class="entry-date published" datetime="2018-08-08T22:12:35-05:00"
+													>August 8, 2018</time
+												></span
+											>
+											<span class="updated-on post-meta"
+												>Updated:
+												<time class="updated" datetime="2020-10-02T21:09:55-05:00"
+													>October 2, 2020</time
+												></span
+											><span class="byline post-meta">
+												By
+												<span class="author vcard"
+													><a class="url fn n" href="/author/digitalblake/"
+														>Blake Cerecero</a
+													></span
+												></span
+											>
+										</p>
+									</div>
+									<!-- .entry-meta -->
+								</header>
+								<!-- .entry-header -->
+							</div>
+						</div>
 
-	
-	<div data-rocket-location-hash="5af47f6829f724b092e5b844a38e0bc1" class="row">
-
-		<main data-rocket-location-hash="9289ac32e29677407f6e1243942ffe87" class="medium-12 small-12 columns" role="main" id="content">
-
-			<div data-rocket-location-hash="1fb6feb7187960ee97019e6604a9d559" class="wrapper">
-									
-					
-
-<article id="post-96" class="main-content-block post-96 post type-post status-publish format-standard hentry category-guides tag-javascript tag-php tag-sublime-text tag-wordpress sticky-post">
-	<div data-rocket-location-hash="459ef3f9f116f091bc911e896d055d93" class="row">
-		<div class="large-9 medium-12 small-12 columns">
-			<header class="entry-header">
-				<h1 class="entry-title">Sublime Text 3 Snippets</h1>
-				<div class="entry-meta">
-					<p><span class="posted-on post-meta">Posted: <time class="entry-date published" datetime="2018-08-08T22:12:35-05:00">August 8, 2018</time></span> <span class="updated-on post-meta">Updated: <time class="updated" datetime="2020-10-02T21:09:55-05:00">October 2, 2020</time></span><span class="byline post-meta"> By <span class="author vcard"><a class="url fn n" href="/author/digitalblake/">Blake Cerecero</a></span></span></p>				</div><!-- .entry-meta -->
-			</header><!-- .entry-header -->
-		</div>
-	</div>
-
-	<div data-rocket-location-hash="ccad82ffb95c64be72b27eb2537e8a5c" class="row">
-		<div class="large-9 medium-12 small-12 columns">
-			<div class="entry-content">
-				<h3>Sublime Text Snippets</h3>
-<p>When creating a Sublime Text snippet you have 4 distinct sections.</p>
-<ol>
-<li>Content
-<ul>
-<li>The content is the snippet code itself. The snippet can have several field markers for tab completion and cursor placement.</li>
-</ul>
-</li>
-<li>Tab Trigger
-<ul>
-<li>The trigger is the keyword that will start to appear in the Sublime Text contextual menu (auto-complete) as you start to type to get the snippet.</li>
-</ul>
-</li>
-<li>Scope
-<ul>
-<li>The scope will determine what file types the snippet will appear in. To include multiple file types you only have to list them out in a comma separated list.
-<ul>
-<li><code>&lt;scope&gt;source.js,source.jsx&lt;/scope&gt;</code></li>
-<li><code>&lt;scope&gt;source.php,embedding.php&lt;/scope&gt;</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Description
-<ul>
-<li>The description shows up in the auto-complete menu as you type the snippet name.</li>
-</ul>
-</li>
-</ol>
-<h3>Simple Snippet</h3>
-<pre><code class="line-numbers lang-xml">&lt;snippet&gt;
+						<div data-rocket-location-hash="ccad82ffb95c64be72b27eb2537e8a5c" class="row">
+							<div class="large-9 medium-12 small-12 columns">
+								<div class="entry-content">
+									<h3>Sublime Text Snippets</h3>
+									<p>When creating a Sublime Text snippet you have 4 distinct sections.</p>
+									<ol>
+										<li>
+											Content
+											<ul>
+												<li>
+													The content is the snippet code itself. The snippet can have several
+													field markers for tab completion and cursor placement.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Tab Trigger
+											<ul>
+												<li>
+													The trigger is the keyword that will start to appear in the Sublime
+													Text contextual menu (auto-complete) as you start to type to get the
+													snippet.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Scope
+											<ul>
+												<li>
+													The scope will determine what file types the snippet will appear in.
+													To include multiple file types you only have to list them out in a
+													comma separated list.
+													<ul>
+														<li>
+															<code>&lt;scope&gt;source.js,source.jsx&lt;/scope&gt;</code>
+														</li>
+														<li>
+															<code
+																>&lt;scope&gt;source.php,embedding.php&lt;/scope&gt;</code
+															>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											Description
+											<ul>
+												<li>
+													The description shows up in the auto-complete menu as you type the
+													snippet name.
+												</li>
+											</ul>
+										</li>
+									</ol>
+									<h3>Simple Snippet</h3>
+									<pre><code class="line-numbers lang-xml">&lt;snippet&gt;
     &lt;content&gt;&lt;![CDATA[
 console.log(${1:your_value});
 $0
@@ -193,11 +845,25 @@ $0
     &lt;description&gt;console.log statement&lt;/description&gt;
 &lt;/snippet&gt;
 </code></pre>
-<p>In the above example you can see all 4 main sections of a Sublime Text snippet. The interesting part happens within the content section. This snippet simply outputs <code>console.log();</code> in JavaScript and JSX files and places the cursor within the parentheses. Then when done, places the cursors after the <code>console.log</code> statement. How does this work?</p>
-<p>Inside the parentheses you will see the first field marker: <code>${1:your_value}</code></p>
-<p>This marker is the first tab stop in the snippet. It will output your_value highlighted and ready to be replaced with whatever you type. Then we end on the second field marker at <code>$0</code>. This field marker is where the cursor will be placed once all actions in the snippet are complete.</p>
-<h3>Moderate Snippet</h3>
-<pre><code class="line-numbers lang-xml">&lt;snippet&gt;
+									<p>
+										In the above example you can see all 4 main sections of a Sublime Text snippet.
+										The interesting part happens within the content section. This snippet simply
+										outputs <code>console.log();</code> in JavaScript and JSX files and places the
+										cursor within the parentheses. Then when done, places the cursors after the
+										<code>console.log</code> statement. How does this work?
+									</p>
+									<p>
+										Inside the parentheses you will see the first field marker:
+										<code>${1:your_value}</code>
+									</p>
+									<p>
+										This marker is the first tab stop in the snippet. It will output your_value
+										highlighted and ready to be replaced with whatever you type. Then we end on the
+										second field marker at <code>$0</code>. This field marker is where the cursor
+										will be placed once all actions in the snippet are complete.
+									</p>
+									<h3>Moderate Snippet</h3>
+									<pre><code class="line-numbers lang-xml">&lt;snippet&gt;
     &lt;content&gt;&lt;![CDATA[&lt;?php if ( have_rows( '${1:repeater_field_name}' ) ) : ?&gt;
     &lt;?php while ( have_rows( '${1:repeater_field_name}' ) ) : ?&gt;
         &lt;?php the_row(); ?&gt;
@@ -211,155 +877,323 @@ $0
     &lt;description&gt;An ACF repeater filed group&lt;/description&gt;
 &lt;/snippet&gt;
 </code></pre>
-<p>Here is a more complicated example where we have multiple field markers, and in one instance the same field marker twice. If you need to rename two parts of your snippet at the same time you can use the same field marker where both will be selected when you tab to that instance of the field marker.</p>
-<p>This snippet is for a WordPress ACF Repeater template. The reason why I chose a PHP example here is to show you how to escape the <code>$</code> symbol in a snippet. The <code>$</code> is a reserved symbol that will determin the tab stops and to escape them you simply add a backslash, <code>\$</code>. You can see this on line 6 of the above example.</p>
-<h3>Additional Information</h3>
-<p>There is an easy way to quickly generate a snippet template under Tools > Developer > New Snippet. When saving these files it&#8217;s important to rememeber that you can only have one snippet per file. For this reason I suggest you create a custom-snippets folder where you can store these. When you go to save the snippet that has been created using the Sublime Text menu, you&#8217;ll be show the proper location to save the file. For me this location is ~/Library/Application Support/Sublime Text 3/Packages/User/custom-snippets. Be sure to save the file as <code>.sublime-snippet</code> otherwise Sublime Text will not recognize your file.</p>
-<p><img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Sublime Text Snippet Location" data-lazy-src="/wp-content/uploads/2018/08/sublime-text-snippet.jpg" /><noscript><img decoding="async" src="/wp-content/uploads/2018/08/sublime-text-snippet.jpg" alt="Sublime Text Snippet Location" /></noscript></p>
-<p>More information can be found on Sublime Text snippets on the snippets documentaion page: <a href="http://sublimetext.info/docs/en/extensibility/snippets.html">http://sublimetext.info/docs/en/extensibility/snippets.html</a></p>
+									<p>
+										Here is a more complicated example where we have multiple field markers, and in
+										one instance the same field marker twice. If you need to rename two parts of
+										your snippet at the same time you can use the same field marker where both will
+										be selected when you tab to that instance of the field marker.
+									</p>
+									<p>
+										This snippet is for a WordPress ACF Repeater template. The reason why I chose a
+										PHP example here is to show you how to escape the <code>$</code> symbol in a
+										snippet. The <code>$</code> is a reserved symbol that will determin the tab
+										stops and to escape them you simply add a backslash, <code>\$</code>. You can
+										see this on line 6 of the above example.
+									</p>
+									<h3>Additional Information</h3>
+									<p>
+										There is an easy way to quickly generate a snippet template under Tools >
+										Developer > New Snippet. When saving these files it&#8217;s important to
+										rememeber that you can only have one snippet per file. For this reason I suggest
+										you create a custom-snippets folder where you can store these. When you go to
+										save the snippet that has been created using the Sublime Text menu, you&#8217;ll
+										be show the proper location to save the file. For me this location is
+										~/Library/Application Support/Sublime Text 3/Packages/User/custom-snippets. Be
+										sure to save the file as <code>.sublime-snippet</code> otherwise Sublime Text
+										will not recognize your file.
+									</p>
+									<p>
+										<img
+											decoding="async"
+											src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+											alt="Sublime Text Snippet Location"
+											data-lazy-src="/wp-content/uploads/2018/08/sublime-text-snippet.jpg"
+										/><noscript
+											><img
+												decoding="async"
+												src="/wp-content/uploads/2018/08/sublime-text-snippet.jpg"
+												alt="Sublime Text Snippet Location"
+										/></noscript>
+									</p>
+									<p>
+										More information can be found on Sublime Text snippets on the snippets
+										documentaion page:
+										<a href="http://sublimetext.info/docs/en/extensibility/snippets.html"
+											>http://sublimetext.info/docs/en/extensibility/snippets.html</a
+										>
+									</p>
+								</div>
+								<!-- .entry-content -->
 
-							</div><!-- .entry-content -->
+								<footer class="entry-footer">
+									<p class="cat-links">
+										<strong>View other</strong>
+										<a href="/category/guides/" rel="category tag">Guides</a>
+									</p>
+									<p class="tags-links">
+										<strong>Tagged in:</strong> <a href="/tag/javascript/" rel="tag">javascript</a>
+										<a href="/tag/php/" rel="tag">php</a>
+										<a href="/tag/sublime-text/" rel="tag">sublime text</a>
+										<a href="/tag/wordpress/" rel="tag">wordpress</a>
+									</p>
+								</footer>
+								<!-- .entry-footer -->
 
-			<footer class="entry-footer">
-				<p class="cat-links"><strong>View other</strong> <a href="/category/guides/" rel="category tag">Guides</a></p><p class="tags-links"><strong>Tagged in:</strong> <a href="/tag/javascript/" rel="tag">javascript</a> <a href="/tag/php/" rel="tag">php</a> <a href="/tag/sublime-text/" rel="tag">sublime text</a> <a href="/tag/wordpress/" rel="tag">wordpress</a></p>			</footer><!-- .entry-footer -->
-
-			
-	<nav class="navigation post-navigation" aria-label="Posts">
-		<h2 class="screen-reader-text">Post navigation</h2>
-		<div class="nav-links"><div class="nav-previous"><a href="/2018/08/05/setting-up-wordpress-coding-standards-wpcs/" rel="prev">Prev. Post: <em>Setting up WordPress Coding Standards (WPCS) Globally</em></a></div><div class="nav-next"><a href="/2018/08/12/docker-notes/" rel="next">Next Post: <em>Docker Notes</em></a></div></div>
-	</nav>		</div>
-
-		
-<div class="large-3 medium-12 small-12 columns" role="complementary">
-	
-	<div class="sidebar">
-		
-		<aside id="recent-posts-2" class="widget widget_recent_entries">
-		<h2 class="widget-title">Recent Posts</h2>
-		<ul>
-											<li>
-					<a href="/2021/08/27/yabai-and-skhd-configs/">Yabai and SKHD Configs</a>
-									</li>
-											<li>
-					<a href="/2021/03/19/installing-cli-tools-fish-php-composer-nvm-with-arch-linux-and-docker-image/">Installing CLI Tools (fish, php, composer, nvm) with Arch Linux and Docker Image</a>
-									</li>
-											<li>
-					<a href="/2021/02/02/creating-user-through-command-line-on-linux-ubuntu-20-04/">Creating User Through Command Line on Linux (Ubuntu 20.04)</a>
-									</li>
-											<li>
-					<a href="/2021/01/29/install-ubuntu-and-docker-desktop-for-windows-10-early-2021/">Install Ubuntu and Docker Desktop for Windows 10 (Early 2021)</a>
-									</li>
-											<li>
-					<a href="/2020/07/25/common-composer-commands/">Common Composer Commands</a>
-									</li>
-					</ul>
-
-		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>
-			<ul>
-					<li class="cat-item cat-item-8"><a href="/category/articles/">Articles</a>
-</li>
-	<li class="cat-item cat-item-18"><a href="/category/guides/">Guides</a>
-</li>
-	<li class="cat-item cat-item-24"><a href="/category/notes/">Notes</a>
-</li>
-	<li class="cat-item cat-item-10"><a href="/category/snippets/">Snippets</a>
-</li>
-			</ul>
-
-			</aside>	</div>
-</div><!-- #secondary -->
-	</div>
-</article><!-- #post-## -->
-
+								<nav class="navigation post-navigation" aria-label="Posts">
+									<h2 class="screen-reader-text">Post navigation</h2>
+									<div class="nav-links">
+										<div class="nav-previous">
+											<a href="/2018/08/05/setting-up-wordpress-coding-standards-wpcs/" rel="prev"
+												>Prev. Post:
+												<em>Setting up WordPress Coding Standards (WPCS) Globally</em></a
+											>
+										</div>
+										<div class="nav-next">
+											<a href="/2018/08/12/docker-notes/" rel="next"
+												>Next Post: <em>Docker Notes</em></a
+											>
+										</div>
+									</div>
+								</nav>
 							</div>
 
-		</main><!-- #main -->
-
-	</div>
-
-
-	
-	<footer data-rocket-location-hash="66ecdbb48da0da713141fbd691543744" class="main">
-		<p class="show-for-sr">Site Footer</p>
-
-		<div class="row">
-			<div data-rocket-location-hash="b66e21872c067e7d65b298cde2387106" class="medium-4 small-12 columns">
-				<aside id="text-3" class="widget widget_text"><h2 class="widget-title">About Blake</h2>			<div class="textwidget"><p>I’ve developed in multiple content management systems from the ever popular WordPress to the developer friendly and powerful Drupal. Using these CMS’s I have been able to build sites that are both flexible and user-friendly.</p>
-</div>
-		</aside>			</div>
-
-			<div data-rocket-location-hash="3c414d4f563a0502fb0e62bbcd5dc3f2" class="medium-3 small-5 columns">
-				<div class="connect">
-					<aside id="text-2" class="widget widget_text"><h2 class="widget-title">Connect</h2>			<div class="textwidget"><ul>
-<li><a href="https://twitter.com/BlakeCerecero" target="_blank" rel="noopener">Twitter</a></li>
-<li><a href="https://www.linkedin.com/in/blakecerecero" target="_blank" rel="noopener">LinkedIn</a></li>
-<li><a href="https://github.com/Blake-C" target="_blank" rel="noopener">GitHub</a></li>
-<li><a href="https://codepen.io/Blake-C/" target="_blank" rel="noopener">CodePen</a></li>
-</ul>
-</div>
-		</aside>				</div>
-			</div>
-
-			<div data-rocket-location-hash="7c21a38064293fe2972c5fac10908ff0" class="medium-5 small-7 columns">
-				<aside id="text-5" class="widget widget_text"><h2 class="widget-title">Services</h2>			<div class="textwidget"><ul>
-<li>HTML5 / CSS3</li>
-<li>PHP</li>
-<li>JavaScript</li>
-<li>WordPress Development</li>
-<li>Drupal Development</li>
-<li>Joomla Development</li>
-</ul>
-</div>
-		</aside>			</div>
-
-			<div data-rocket-location-hash="3de56176d0e1fe43ed2556f27a1873e8" class="medium-12 columns">
-				<div class="freelance">
-					<aside id="text-4" class="widget widget_text"><h2 class="show-for-sr">Freelance</h2>			<div class="textwidget"><p><a href="/wp-content/uploads/2024/07/Blake-Cerecero-Web-Resume-v3.pdf" target="_blank" rel="noopener">Résumé available</a></p>
-</div>
-		</aside>				</div>
-			</div>
+							<div class="large-3 medium-12 small-12 columns" role="complementary">
+								<div class="sidebar">
+									<aside id="recent-posts-2" class="widget widget_recent_entries">
+										<h2 class="widget-title">Recent Posts</h2>
+										<ul>
+											<li>
+												<a href="/2021/08/27/yabai-and-skhd-configs/">Yabai and SKHD Configs</a>
+											</li>
+											<li>
+												<a
+													href="/2021/03/19/installing-cli-tools-fish-php-composer-nvm-with-arch-linux-and-docker-image/"
+													>Installing CLI Tools (fish, php, composer, nvm) with Arch Linux and
+													Docker Image</a
+												>
+											</li>
+											<li>
+												<a
+													href="/2021/02/02/creating-user-through-command-line-on-linux-ubuntu-20-04/"
+													>Creating User Through Command Line on Linux (Ubuntu 20.04)</a
+												>
+											</li>
+											<li>
+												<a
+													href="/2021/01/29/install-ubuntu-and-docker-desktop-for-windows-10-early-2021/"
+													>Install Ubuntu and Docker Desktop for Windows 10 (Early 2021)</a
+												>
+											</li>
+											<li>
+												<a href="/2020/07/25/common-composer-commands/"
+													>Common Composer Commands</a
+												>
+											</li>
+										</ul>
+									</aside>
+									<aside id="categories-2" class="widget widget_categories">
+										<h2 class="widget-title">Categories</h2>
+										<ul>
+											<li class="cat-item cat-item-8">
+												<a href="/category/articles/">Articles</a>
+											</li>
+											<li class="cat-item cat-item-18"><a href="/category/guides/">Guides</a></li>
+											<li class="cat-item cat-item-24"><a href="/category/notes/">Notes</a></li>
+											<li class="cat-item cat-item-10">
+												<a href="/category/snippets/">Snippets</a>
+											</li>
+										</ul>
+									</aside>
+								</div>
+							</div>
+							<!-- #secondary -->
+						</div>
+					</article>
+					<!-- #post-## -->
+				</div>
+			</main>
+			<!-- #main -->
 		</div>
 
-		<hr>
+		<footer data-rocket-location-hash="66ecdbb48da0da713141fbd691543744" class="main">
+			<p class="show-for-sr">Site Footer</p>
 
-		<div data-rocket-location-hash="4603de81022a740764672b5e3d9d0068" class="sub-footer">
 			<div class="row">
-				<div class="medium-6 small-12 columns">
-					<p>Designed &amp; Developed by <strong>Blake Cerecero</strong></p>				</div>
-				<div class="medium-6 small-12 columns">
-										<p class="copyright">Copyright © 2012 - 2025 All Rights Reserved</p>
+				<div data-rocket-location-hash="b66e21872c067e7d65b298cde2387106" class="medium-4 small-12 columns">
+					<aside id="text-3" class="widget widget_text">
+						<h2 class="widget-title">About Blake</h2>
+						<div class="textwidget">
+							<p>
+								I’ve developed in multiple content management systems from the ever popular WordPress to
+								the developer friendly and powerful Drupal. Using these CMS’s I have been able to build
+								sites that are both flexible and user-friendly.
+							</p>
+						</div>
+					</aside>
+				</div>
+
+				<div data-rocket-location-hash="3c414d4f563a0502fb0e62bbcd5dc3f2" class="medium-3 small-5 columns">
+					<div class="connect">
+						<aside id="text-2" class="widget widget_text">
+							<h2 class="widget-title">Connect</h2>
+							<div class="textwidget">
+								<ul>
+									<li>
+										<a href="https://twitter.com/BlakeCerecero" target="_blank" rel="noopener"
+											>Twitter</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://www.linkedin.com/in/blakecerecero"
+											target="_blank"
+											rel="noopener"
+											>LinkedIn</a
+										>
+									</li>
+									<li>
+										<a href="https://github.com/Blake-C" target="_blank" rel="noopener">GitHub</a>
+									</li>
+									<li>
+										<a href="https://codepen.io/Blake-C/" target="_blank" rel="noopener">CodePen</a>
+									</li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+				</div>
+
+				<div data-rocket-location-hash="7c21a38064293fe2972c5fac10908ff0" class="medium-5 small-7 columns">
+					<aside id="text-5" class="widget widget_text">
+						<h2 class="widget-title">Services</h2>
+						<div class="textwidget">
+							<ul>
+								<li>HTML5 / CSS3</li>
+								<li>PHP</li>
+								<li>JavaScript</li>
+								<li>WordPress Development</li>
+								<li>Drupal Development</li>
+								<li>Joomla Development</li>
+							</ul>
+						</div>
+					</aside>
+				</div>
+
+				<div data-rocket-location-hash="3de56176d0e1fe43ed2556f27a1873e8" class="medium-12 columns">
+					<div class="freelance">
+						<aside id="text-4" class="widget widget_text">
+							<h2 class="show-for-sr">Freelance</h2>
+							<div class="textwidget">
+								<p>
+									<a
+										href="/wp-content/uploads/2024/07/Blake-Cerecero-Web-Resume-v3.pdf"
+										target="_blank"
+										rel="noopener"
+										>Résumé available</a
+									>
+								</p>
+							</div>
+						</aside>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
 
-	<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/wp-foundation-six\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-browser-checker-js-after">
-/* <![CDATA[ */
-"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
-/* ]]> */
-</script>
-<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-preload-links-js-extra">
-/* <![CDATA[ */
-var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/digitalblake.com","onHoverDelay":"100","rateThrottle":"3"};
-/* ]]> */
-</script>
-<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-preload-links-js-after">
-/* <![CDATA[ */
-(function() {
-"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
-}());
-/* ]]> */
-</script>
+			<hr />
 
+			<div data-rocket-location-hash="4603de81022a740764672b5e3d9d0068" class="sub-footer">
+				<div class="row">
+					<div class="medium-6 small-12 columns">
+						<p>Designed &amp; Developed by <strong>Blake Cerecero</strong></p>
+					</div>
+					<div class="medium-6 small-12 columns">
+						<p class="copyright">Copyright © 2012 - 2025 All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-<script type="e1d9c32308fab6359fbae5a1-text/javascript">window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
-if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
-images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
-if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" type="e1d9c32308fab6359fbae5a1-text/javascript"></script><script type="e1d9c32308fab6359fbae5a1-text/javascript">var rocket_beacon_data = {"ajax_url":"https:\/\/digitalblake.com\/wp-admin\/admin-ajax.php","nonce":"8ee01dd090","url":"https:\/\/digitalblake.com\/2018\/08\/08\/sublime-text-3-snippets","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src='/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async type="e1d9c32308fab6359fbae5a1-text/javascript"></script><script src="/wp-content/cache/min/1/5c4eef651fce6ac0083bd93bebe82af2.js" data-minify="1" data-rocket-defer defer type="e1d9c32308fab6359fbae5a1-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e1d9c32308fab6359fbae5a1-|49" defer></script></body>
+		<script type="speculationrules">
+			{
+				"prefetch": [
+					{
+						"source": "document",
+						"where": {
+							"and": [
+								{ "href_matches": "\/*" },
+								{
+									"not": {
+										"href_matches": [
+											"\/wp-*.php",
+											"\/wp-admin\/*",
+											"\/wp-content\/uploads\/*",
+											"\/wp-content\/*",
+											"\/wp-content\/plugins\/*",
+											"\/wp-content\/themes\/wp-foundation-six\/*",
+											"\/*\\?(.+)"
+										]
+									}
+								},
+								{ "not": { "selector_matches": "a[rel~=\"nofollow\"]" } },
+								{ "not": { "selector_matches": ".no-prefetch, .no-prefetch a" } }
+							]
+						},
+						"eagerness": "conservative"
+					}
+				]
+			}
+		</script>
+		<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-browser-checker-js-after">
+			/* <![CDATA[ */
+			"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+			/* ]]> */
+		</script>
+		<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-preload-links-js-extra">
+			/* <![CDATA[ */
+			var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/digitalblake.com","onHoverDelay":"100","rateThrottle":"3"};
+			/* ]]> */
+		</script>
+		<script type="e1d9c32308fab6359fbae5a1-text/javascript" id="rocket-preload-links-js-after">
+			/* <![CDATA[ */
+			(function() {
+			"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+			}());
+			/* ]]> */
+		</script>
 
+		<script type="e1d9c32308fab6359fbae5a1-text/javascript">
+			window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+			if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+			images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+			if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)
+		</script>
+		<script
+			data-no-minify="1"
+			async
+			src="/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"
+			type="e1d9c32308fab6359fbae5a1-text/javascript"
+		></script>
+		<script type="e1d9c32308fab6359fbae5a1-text/javascript">
+			var rocket_beacon_data = {"ajax_url":"https:\/\/digitalblake.com\/wp-admin\/admin-ajax.php","nonce":"8ee01dd090","url":"https:\/\/digitalblake.com\/2018\/08\/08\/sublime-text-3-snippets","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}
+		</script>
+		<script
+			data-name="wpr-wpr-beacon"
+			src="/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js"
+			async
+			type="e1d9c32308fab6359fbae5a1-text/javascript"
+		></script>
+		<script
+			src="/wp-content/cache/min/1/5c4eef651fce6ac0083bd93bebe82af2.js"
+			data-minify="1"
+			data-rocket-defer
+			defer
+			type="e1d9c32308fab6359fbae5a1-text/javascript"
+		></script>
+		<script
+			src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+			data-cf-settings="e1d9c32308fab6359fbae5a1-|49"
+			defer
+		></script>
+	</body>
 </html>
 
 <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1747797597 -->
