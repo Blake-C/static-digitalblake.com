@@ -3743,7 +3743,7 @@
 })()
 function lazyLoadThumb(e, alt, l) {
 	var t =
-			'<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',
+			'<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.webp" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.webp" alt="" width="480" height="360"></noscript>',
 		a = '<button class="play" aria-label="play Youtube video"></button>'
 	if (l) {
 		t = t.replace('data-lazy-', '')
@@ -3773,7 +3773,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		a = document.getElementsByClassName('rll-youtube-player')
 	for (t = 0; t < a.length; t++)
 		(e = document.createElement('div')),
-			(u = 'https://i.ytimg.com/vi/ID/hqdefault.jpg'),
+			(u = 'https://i.ytimg.com/vi/ID/hqdefault.webp'),
 			(u = u.replace('ID', a[t].dataset.id)),
 			(l = exclusions.some(exclusion => u.includes(exclusion))),
 			e.setAttribute('data-id', a[t].dataset.id),

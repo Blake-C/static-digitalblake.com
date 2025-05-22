@@ -32,23 +32,23 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-16x16.png" sizes="16x16">
+	<link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-57x57.webp">
+	<link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-60x60.webp">
+	<link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-72x72.webp">
+	<link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-76x76.webp">
+	<link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-114x114.webp">
+	<link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-120x120.webp">
+	<link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-144x144.webp">
+	<link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-152x152.webp">
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/wp-foundation-six/assets/icons/apple-touch-icon-180x180.webp">
+	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-32x32.webp" sizes="32x32">
+	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/android-chrome-192x192.webp" sizes="192x192">
+	<link rel="icon" type="image/png" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon-16x16.webp" sizes="16x16">
 	<link rel="manifest" href="/wp-content/themes/wp-foundation-six/assets/icons/manifest.json">
 	<link rel="mask-icon" href="/wp-content/themes/wp-foundation-six/assets/icons/safari-pinned-tab.svg" color="#1b152b">
 	<link rel="shortcut icon" href="/wp-content/themes/wp-foundation-six/assets/icons/favicon.ico">
 	<meta name="msapplication-TileColor" content="#1b152b">
-	<meta name="msapplication-TileImage" content="/wp-content/themes/wp-foundation-six/assets/icons/mstile-144x144.png">
+	<meta name="msapplication-TileImage" content="/wp-content/themes/wp-foundation-six/assets/icons/mstile-144x144.webp">
 	<meta name="msapplication-config" content="/wp-content/themes/wp-foundation-six/assets/icons/browserconfig.xml">
 	<meta name="theme-color" content="#1b152b">
 
@@ -93,7 +93,7 @@
 </style>
 <link data-minify="1" rel='stylesheet' id='wp-foundation-six-style-css' href='/wp-content/cache/min/1/wp-content/themes/wp-foundation-six/assets/css/global-styles.min.css?ver=1720310349' type='text/css' media='all' />
 <style id='rocket-lazyload-inline-css' type='text/css'>
-.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(/wp-content/plugins/wp-rocket/assets/img/youtube.webp) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
 </style>
 <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><meta name="generator" content="WP Rocket 3.17.4" data-wpr-features="wpr_defer_js wpr_minify_concatenate_js wpr_lazyload_images wpr_lazyload_iframes wpr_minify_css wpr_desktop wpr_preload_links" /></head>
 
@@ -139,11 +139,11 @@
 						class="profile-image"
 					 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20245%20245'%3E%3C/svg%3E"
 						alt=""
-				 data-lazy-src="/wp-content/themes/wp-foundation-six/assets/images/profile-2022-v3.jpg"	/><noscript><img
+				 data-lazy-src="/wp-content/themes/wp-foundation-six/assets/images/profile-2022-v3.webp"	/><noscript><img
 						width="245"
 						height="245"
 						class="profile-image"
-						src="/wp-content/themes/wp-foundation-six/assets/images/profile-2022-v3.jpg"
+						src="/wp-content/themes/wp-foundation-six/assets/images/profile-2022-v3.webp"
 						alt=""
 					/></noscript>
 				</picture>
