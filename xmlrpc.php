@@ -9,7 +9,7 @@
 <head>
 	<meta charset="UTF-8">
 
-	
+
 	<link rel="preconnect" href="https://api.github.com">
 
 	<link
@@ -56,14 +56,14 @@
 		<meta name="apple-mobile-web-app-title" content="DigitalBlake">
 	<meta name="application-name" content="DigitalBlake">
 
-	
+
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	
+
 	<!-- This site is optimized with the Yoast SEO plugin v25.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Home - DigitalBlake</title>
 	<meta name="description" content="I’ve developed in multiple content management systems from the ever popular WordPress to the developer friendly and powerful Drupal." />
-	<link rel="canonical" href="/" />
+	<link rel="canonical" href="https://digitalblake.com/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Home - DigitalBlake" />
@@ -102,8 +102,8 @@
 
 	<!--[if lt IE 9]><p class=chromeframe>Your browser is <em>not</em> supported. <a href="http://browsehappy.com/">Upgrade to a different browser</a> to experience this site.</p><![endif]-->
 
-	
-	
+
+
 	<header  class="top-header" id="top_header">
 		<div  class="row">
 			<div  class="large-4 medium-5 small-12 columns logo-name">
@@ -123,7 +123,7 @@
 		</div>
 	</header>
 
-	
+
 	<section  class="intro">
 		<div  class="row align-center align-middle">
 			<div  class="medium-6 small-12 medium-order-2 columns">
@@ -165,18 +165,18 @@
 		</div>
 	</section>
 
-	
+
 
 	<section  class="github" id="projects">
 		<h2 class="github__title">GitHub Projects</h2>
 
 		<div  class=" row small-up-1 medium-up-2 large-up-3">
-							
+
 				<div  class="column">
 					<div class="git-project">
 						<h3 class="git-project__title">WP Foundation Six</h3>
 
-						
+
 						<!-- wp:paragraph -->
 <p><strong>Description<br></strong>WordPress Development Theme Framework using Foundation 6 for Sites</p>
 <!-- /wp:paragraph -->
@@ -191,12 +191,12 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->					</div>
 				</div>
-							
+
 				<div  class="column">
 					<div class="git-project">
 						<h3 class="git-project__title">Youtube Playlist Module</h3>
 
-						
+
 						<!-- wp:paragraph -->
 <p><strong>Description<br></strong>A browser based javascript module using the YouTube API to display youtube playlists with a custom UI.</p>
 <!-- /wp:paragraph -->
@@ -211,12 +211,12 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->					</div>
 				</div>
-							
+
 				<div  class="column">
 					<div class="git-project">
 						<h3 class="git-project__title">Mobile Mega Menu</h3>
 
-						
+
 						<!-- wp:paragraph -->
 <p><strong>Description</strong><br>The mobile mega menu is designed to allow for deep menu structures to be navigated easily on mobile devices.</p>
 <!-- /wp:paragraph -->
@@ -234,14 +234,14 @@
 					</div>
 	</section>
 
-	
-	
+
+
 
 	<section  class="sites-gallery">
 		<h2 class="sites-gallery__title">Websites</h2>
 
 		<div  class="row">
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-502"
@@ -278,7 +278,7 @@
 									</header>
 
 									<div id="modal-502-content">
-										
+
 										<!-- wp:paragraph -->
 <p>Republic Ranches helps buyers and sellers of land assets primarily in the state of Texas but has properties all around the United States. This build was very fun and interesting from a development perspective. Our goal was to build an easy to use, easy to search, and intuitive discovery process for users of the new site with a focus on digital marketing and SEO. To this end we built a site that hits all the marks for the use of schema data to help with search results and page structure to make it easier for search engines to index different pages depending on what users were searching for.</p>
 <!-- /wp:paragraph -->
@@ -315,7 +315,7 @@
 					</div>
 
 				</div>
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-481"
@@ -352,7 +352,7 @@
 									</header>
 
 									<div id="modal-481-content">
-										
+
 										<!-- wp:paragraph -->
 <p>Organizing legal volunteers to help our local community, San Antonio Legal Services Association (SALSA) needed an easy to use platform that would allow them to create custom landing pages to share training resources with legal volunteers. To this end we chose WordPress as the go to content management system with much flexibility and easy to use blocks that would allow SALSA to quickly build out landing pages.</p>
 <!-- /wp:paragraph -->
@@ -381,7 +381,7 @@
 					</div>
 
 				</div>
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-478"
@@ -418,7 +418,7 @@
 									</header>
 
 									<div id="modal-478-content">
-										
+
 										<!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">Empowering Physicians to live out their mission, Covenant Physician Partners is built on the WordPress content management system using our advanced development theme. Custom programming using ES6, Babel, and Webpack allows us to program to the latest standard then transpile our code for multiple browsers for interactive SVG maps for searching and filtering physician practice locations. Utilizing Advanced Custom Fields we created custom Gutenberg Blocks that can be used to filter out data from the custom post types for practice location and physician data.</p>
 <!-- /wp:paragraph -->
@@ -443,7 +443,7 @@
 					</div>
 
 				</div>
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-445"
@@ -480,7 +480,7 @@
 									</header>
 
 									<div id="modal-445-content">
-										
+
 										<!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">This WordPress website hosts Podcasts being pulled in from Podbean. Initially starting out with a single podcast, it has expanded to more than 5 shows. Some of the primary features of this site is the use of custom post types to organize shows with detail pages for the shows connected to listing pages for the podcasts. Very little work has to be done to create a new show and start loading it up with episodes then relate hosts, social streams, and ads.</p>
 <!-- /wp:paragraph -->
@@ -505,7 +505,7 @@
 					</div>
 
 				</div>
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-458"
@@ -542,7 +542,7 @@
 									</header>
 
 									<div id="modal-458-content">
-										
+
 										<!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">It's not everyday that I get to design a site, however, this re-skin of the Be Something Amazing Drupal 7 site was an opportunity to flex those muscles. The main feature of this site is the career finder page where I used the Drupal API to call a custom content types data on to the page for filtering by the Mixitup JavaScript plugin. On the home page our editor spliced together a looping video to bring the site to life.</p>
 <!-- /wp:paragraph -->
@@ -567,7 +567,7 @@
 					</div>
 
 				</div>
-							
+
 				<div  class="large-4 medium-6 small-12 columns">
 					<a
 						data-micromodal-trigger="modal-450"
@@ -604,7 +604,7 @@
 									</header>
 
 									<div id="modal-450-content">
-										
+
 										<!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">The Southwest National Primate Research Center is a WordPress website and sister website to the Texas BioMedical Research Institute. With a design much more fitting of my personal tastes, I used SVG icons and logos to maintain a sharp feel regardless of the resolution of the users display. The design is largely based off of Texas BioMed, however there are several scientist pages where we did not want to duplicate data between the two sites. For this reason we used the WordPress API to call in data from the main Texas BioMed site into SNPRC so that our client would only need to enter the data into one location.</p>
 <!-- /wp:paragraph -->
@@ -632,9 +632,9 @@
 					</div>
 	</section>
 
-	
 
-	
+
+
 	<footer  class="main">
 		<p class="show-for-sr">Site Footer</p>
 
