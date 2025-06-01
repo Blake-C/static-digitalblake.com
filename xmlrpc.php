@@ -229,7 +229,7 @@
 					>
 						<h3 class="sites-gallery__item-title">Republic Ranches</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" fetchpriority="high" src="wp-content/uploads/2021/12/republicranches.com_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" fetchpriority="high" src="wp-content/uploads/2021/12/republicranches.com_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -287,7 +287,7 @@
 <div class="wp-block-button"><a class="button primary" href="https://republicranches.com/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="934" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/12/republicranches.com_-scaled.webp 934w, /wp-content/uploads/2021/12/republicranches.com_-109x300.webp 109w, /wp-content/uploads/2021/12/republicranches.com_-374x1024.webp 374w, /wp-content/uploads/2021/12/republicranches.com_-768x2105.webp 768w, /wp-content/uploads/2021/12/republicranches.com_-560x1536.webp 560w, /wp-content/uploads/2021/12/republicranches.com_-747x2048.webp 747w" data-lazy-sizes="(max-width: 934px) 100vw, 934px" src="wp-content/uploads/2021/12/republicranches.com_-scaled.webp" />									</div>
+										<img loading="lazy" width="934" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/12/republicranches.com_-scaled.webp 934w, /wp-content/uploads/2021/12/republicranches.com_-109x300.webp 109w, /wp-content/uploads/2021/12/republicranches.com_-374x1024.webp 374w, /wp-content/uploads/2021/12/republicranches.com_-768x2105.webp 768w, /wp-content/uploads/2021/12/republicranches.com_-560x1536.webp 560w, /wp-content/uploads/2021/12/republicranches.com_-747x2048.webp 747w" data-lazy-sizes="(max-width: 934px) 100vw, 934px" src="wp-content/uploads/2021/12/republicranches.com_-scaled.webp" />									</div>
 								</div>
 							</div>
 						</div>
@@ -303,7 +303,7 @@
 					>
 						<h3 class="sites-gallery__item-title">San Antonio Legal Services Association</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/www.sa-lsa.org_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/www.sa-lsa.org_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -353,7 +353,7 @@
 <div class="wp-block-button"><a class="button primary" href="https://www.sa-lsa.org/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="900" height="2496"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/www.sa-lsa.org_.webp 900w, /wp-content/uploads/2021/07/www.sa-lsa.org_-108x300.webp 108w, /wp-content/uploads/2021/07/www.sa-lsa.org_-369x1024.webp 369w, /wp-content/uploads/2021/07/www.sa-lsa.org_-768x2130.webp 768w, /wp-content/uploads/2021/07/www.sa-lsa.org_-554x1536.webp 554w, /wp-content/uploads/2021/07/www.sa-lsa.org_-738x2048.webp 738w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" src="wp-content/uploads/2021/07/www.sa-lsa.org_.webp" />									</div>
+										<img loading="lazy" width="900" height="2496"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/www.sa-lsa.org_.webp 900w, /wp-content/uploads/2021/07/www.sa-lsa.org_-108x300.webp 108w, /wp-content/uploads/2021/07/www.sa-lsa.org_-369x1024.webp 369w, /wp-content/uploads/2021/07/www.sa-lsa.org_-768x2130.webp 768w, /wp-content/uploads/2021/07/www.sa-lsa.org_-554x1536.webp 554w, /wp-content/uploads/2021/07/www.sa-lsa.org_-738x2048.webp 738w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" src="wp-content/uploads/2021/07/www.sa-lsa.org_.webp" />									</div>
 								</div>
 							</div>
 						</div>
@@ -369,7 +369,7 @@
 					>
 						<h3 class="sites-gallery__item-title">Covenant Physician Partners</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/covenantphysicianpartners.com_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/covenantphysicianpartners.com_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -415,7 +415,7 @@
 <div class="wp-block-button"><a class="button primary" href="https://covenantphysicianpartners.com/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="900" height="1453"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/covenantphysicianpartners.com_.webp 900w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-186x300.webp 186w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-634x1024.webp 634w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-768x1240.webp 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" src="wp-content/uploads/2021/07/covenantphysicianpartners.com_.webp" />									</div>
+										<img loading="lazy" width="900" height="1453"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/covenantphysicianpartners.com_.webp 900w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-186x300.webp 186w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-634x1024.webp 634w, /wp-content/uploads/2021/07/covenantphysicianpartners.com_-768x1240.webp 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" src="wp-content/uploads/2021/07/covenantphysicianpartners.com_.webp" />									</div>
 								</div>
 							</div>
 						</div>
@@ -431,7 +431,7 @@
 					>
 						<h3 class="sites-gallery__item-title">Touch Point Media</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/touchpoint.health_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/touchpoint.health_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -477,7 +477,7 @@
 <div class="wp-block-button"><a class="button primary" href="http://touchpoint.health/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="959" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/touchpoint.health_-scaled.webp 959w, /wp-content/uploads/2021/07/touchpoint.health_-112x300.webp 112w, /wp-content/uploads/2021/07/touchpoint.health_-384x1024.webp 384w, /wp-content/uploads/2021/07/touchpoint.health_-768x2050.webp 768w, /wp-content/uploads/2021/07/touchpoint.health_-767x2048.webp 767w" data-lazy-sizes="(max-width: 959px) 100vw, 959px" src="wp-content/uploads/2021/07/touchpoint.health_-scaled.webp" />									</div>
+										<img loading="lazy" width="959" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/touchpoint.health_-scaled.webp 959w, /wp-content/uploads/2021/07/touchpoint.health_-112x300.webp 112w, /wp-content/uploads/2021/07/touchpoint.health_-384x1024.webp 384w, /wp-content/uploads/2021/07/touchpoint.health_-768x2050.webp 768w, /wp-content/uploads/2021/07/touchpoint.health_-767x2048.webp 767w" data-lazy-sizes="(max-width: 959px) 100vw, 959px" src="wp-content/uploads/2021/07/touchpoint.health_-scaled.webp" />									</div>
 								</div>
 							</div>
 						</div>
@@ -493,7 +493,7 @@
 					>
 						<h3 class="sites-gallery__item-title">Be Something Amazing</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/besomethingamazing.com_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/besomethingamazing.com_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -539,7 +539,7 @@
 <div class="wp-block-button"><a class="button primary" href="https://www.besomethingamazing.com/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="664" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/besomethingamazing.com_-scaled.webp 664w, /wp-content/uploads/2021/07/besomethingamazing.com_-78x300.webp 78w, /wp-content/uploads/2021/07/besomethingamazing.com_-768x2962.webp 768w, /wp-content/uploads/2021/07/besomethingamazing.com_-531x2048.webp 531w" data-lazy-sizes="(max-width: 664px) 100vw, 664px" src="wp-content/uploads/2021/07/besomethingamazing.com_-scaled.webp" />									</div>
+										<img loading="lazy" width="664" height="2560"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/besomethingamazing.com_-scaled.webp 664w, /wp-content/uploads/2021/07/besomethingamazing.com_-78x300.webp 78w, /wp-content/uploads/2021/07/besomethingamazing.com_-768x2962.webp 768w, /wp-content/uploads/2021/07/besomethingamazing.com_-531x2048.webp 531w" data-lazy-sizes="(max-width: 664px) 100vw, 664px" src="wp-content/uploads/2021/07/besomethingamazing.com_-scaled.webp" />									</div>
 								</div>
 							</div>
 						</div>
@@ -555,7 +555,7 @@
 					>
 						<h3 class="sites-gallery__item-title">Southwest National Primate Research Center</h3>
 
-						<img width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/snprc.org_-600x400.webp" />					</a>
+						<img loading="lazy" width="600" height="400"  class="sites-gallery__image wp-post-image" alt="" decoding="async" src="wp-content/uploads/2021/07/snprc.org_-600x400.webp" />					</a>
 
 					<div
 						class="modal micromodal-slide"
@@ -601,7 +601,7 @@
 <div class="wp-block-button"><a class="button primary" href="https://snprc.org/" target="_blank" rel="noreferrer noopener">View Live Site</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-										<img width="1615" height="2022"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/snprc.org_.webp 1615w, /wp-content/uploads/2021/07/snprc.org_-240x300.webp 240w, /wp-content/uploads/2021/07/snprc.org_-818x1024.webp 818w, /wp-content/uploads/2021/07/snprc.org_-768x962.webp 768w, /wp-content/uploads/2021/07/snprc.org_-1227x1536.webp 1227w" data-lazy-sizes="(max-width: 1615px) 100vw, 1615px" src="wp-content/uploads/2021/07/snprc.org_.webp" />									</div>
+										<img loading="lazy" width="1615" height="2022"  class="attachment-full size-full wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2021/07/snprc.org_.webp 1615w, /wp-content/uploads/2021/07/snprc.org_-240x300.webp 240w, /wp-content/uploads/2021/07/snprc.org_-818x1024.webp 818w, /wp-content/uploads/2021/07/snprc.org_-768x962.webp 768w, /wp-content/uploads/2021/07/snprc.org_-1227x1536.webp 1227w" data-lazy-sizes="(max-width: 1615px) 100vw, 1615px" src="wp-content/uploads/2021/07/snprc.org_.webp" />									</div>
 								</div>
 							</div>
 						</div>
